@@ -2,8 +2,8 @@
 // Format: slug -> array of video embed objects
 
 export type VideoEmbed = {
-  type: "vimeo" | "youtube";
-  id: string;
+  type: "vimeo" | "youtube" | "self";
+  id: string; // For vimeo/youtube: video ID. For self: path like "/videos/file.mp4"
   title?: string;
 };
 
@@ -23,7 +23,11 @@ export const pageVideos: Record<string, VideoEmbed[]> = {
     },
   ],
   "jal-el-bahr": [
-    // Add Jal El Bahr video here when available
+    {
+      type: "self",
+      id: "/videos/jal-el-bahr.mp4",
+      title: "Jal El Bahr",
+    },
   ],
   "snakes-and-ladders": [
     // Add Snakes and Ladders video here when available

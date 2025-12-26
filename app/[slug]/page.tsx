@@ -97,6 +97,16 @@ export default async function ProjectPage({ params }: { params: Promise<Params> 
                     allowFullScreen
                   />
                 )}
+                {video.type === "self" && (
+                  <video
+                    src={video.id}
+                    title={video.title || `Video ${idx + 1}`}
+                    className="absolute inset-0 h-full w-full object-contain"
+                    controls
+                    playsInline
+                    preload="metadata"
+                  />
+                )}
               </div>
             ))}
           </div>

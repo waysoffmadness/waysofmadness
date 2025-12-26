@@ -15,6 +15,13 @@ export const pageVideos: Record<string, VideoEmbed[]> = {
       title: "Southern Birds",
     },
   ],
+  "shabah-el-rih": [
+    {
+      type: "vimeo",
+      id: "480393219",
+      title: "Shabah El Rih",
+    },
+  ],
   "jal-el-bahr": [
     // Add Jal El Bahr video here when available
   ],

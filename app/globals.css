@@ -23,3 +23,8 @@ img.grid-item-image {
   display: block !important;
 }
 
+/* Override Squarespace's animation opacity:0 on product items */
+.product-list-item {
+  opacity: 1 !important;
+}
+

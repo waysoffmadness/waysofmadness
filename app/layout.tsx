@@ -1,10 +1,46 @@
 import type { Metadata } from "next";
+import { Epilogue, Poppins } from "next/font/google";
 import { SiteHeader } from "@/components/site-header";
+import { pageImages } from "@/lib/page-images";
 import "./globals.css";
 
+const epilogue = Epilogue({
+  subsets: ["latin"],
+  weight: ["500", "600", "700"],
+  variable: "--font-display",
+  display: "swap",
+});
+
+const poppins = Poppins({
+  subsets: ["latin"],
+  weight: ["400", "500", "700"],
+  variable: "--font-body",
+  display: "swap",
+});
+
+const heroImage = pageImages["home"]?.[0];
+
 export const metadata: Metadata = {
-  title: "Nader Bahsoun",
-  description: "Nader Bahsoun portfolio and print shop.",
+  title: {
+    default: "Nader Bahsoun",
+    template: "%s | Nader Bahsoun",
+  },
+  description:
+    "Visual artist and photographer exploring memory, place, and archives through image, film, and installation.",
+  openGraph: {
+    title: "Nader Bahsoun",
+    description:
+      "Visual artist and photographer exploring memory, place, and archives through image, film, and installation.",
+    type: "website",
+    images: heroImage ? [{ url: heroImage }] : undefined,
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Nader Bahsoun",
+    description:
+      "Visual artist and photographer exploring memory, place, and archives through image, film, and installation.",
+    images: heroImage ? [heroImage] : undefined,
+  },
 };
 
 export default function RootLayout({
@@ -13,7 +49,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="en" className={`${poppins.variable} ${epilogue.variable}`}>
       <body className="bg-[#0e0e0e] text-[#ededed] antialiased">
         <SiteHeader />
         <main>{children}</main>

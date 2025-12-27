@@ -1,5 +1,5 @@
-// Generated from https://www.naderbahsounstudios.com/sitemap.xml (first 6 images per page).
-// Remote domains are allowed in next.config.ts.
+// Seeded from the sitemap and filled in with local export assets where available.
+// Remote domains are allowed in next.config.ts for pages without local copies.
 export const pageImages: Record<string, string[]> = {
   "archive-x": [
     "https://images.squarespace-cdn.com/content/v1/653146cbbf386b36d5f26d0e/3d654269-5fac-4872-91f4-b95adbca9104/Archive+X-22+copy.jpg",
@@ -9,7 +9,7 @@ export const pageImages: Record<string, string[]> = {
     "https://images.squarespace-cdn.com/content/v1/653146cbbf386b36d5f26d0e/bc967fb3-d2ce-442e-84f1-88d2c56e867b/DSC04752.jpg",
   ],
   "about": [
-    "https://images.squarespace-cdn.com/content/v1/653146cbbf386b36d5f26d0e/267976e8-3898-4938-be65-587856514999/IMG-20221101-WA0063%281%29-gigapixel-standard-scale-2_00x+copy.jpg",
+    "/assets/about/image-01.jpg",
   ],
   "work-1-1": [
   ],
@@ -24,10 +24,10 @@ export const pageImages: Record<string, string[]> = {
     "https://images.squarespace-cdn.com/content/v1/653146cbbf386b36d5f26d0e/34aa9486-ca80-4504-815c-1bf24a2d11dc/vlcsnap-2023-10-19-16h53m00s188.png",
   ],
   "unhearable-voices": [
-    "https://images.squarespace-cdn.com/content/v1/653146cbbf386b36d5f26d0e/19fd914b-b33f-4334-8f48-2fff7a5cb62a/vlcsnap-2023-10-19-16h54m53s539.png",
-    "https://images.squarespace-cdn.com/content/v1/653146cbbf386b36d5f26d0e/12d8ffa7-d871-4699-aa46-22c8e2c58592/vlcsnap-2023-10-19-16h54m59s068.png",
-    "https://images.squarespace-cdn.com/content/v1/653146cbbf386b36d5f26d0e/1c7418d3-2bc8-45de-b4ae-dc29f8e9ac7d/vlcsnap-2023-10-19-16h55m10s624.png",
-    "https://images.squarespace-cdn.com/content/v1/653146cbbf386b36d5f26d0e/00e7656a-0da8-4e96-940f-f85ddc37c011/vlcsnap-2023-10-19-16h54m53s539.png",
+    "/assets/unhearable-voices/image-01.png",
+    "/assets/unhearable-voices/image-02.png",
+    "/assets/unhearable-voices/image-03.png",
+    "/assets/unhearable-voices/image-04.png",
   ],
   "noctiluca": [
     "https://images.squarespace-cdn.com/content/v1/653146cbbf386b36d5f26d0e/121ef4bf-f737-447a-bab1-56de22a60f5f/_DSC8264.jpg",
@@ -69,16 +69,18 @@ export const pageImages: Record<string, string[]> = {
     "https://images.squarespace-cdn.com/content/v1/653146cbbf386b36d5f26d0e/1bc8dd01-df63-4e15-a496-d4fcdff08705/vlcsnap-2023-10-19-16h46m15s303.png",
   ],
   "msafreen": [
-    "https://images.squarespace-cdn.com/content/v1/653146cbbf386b36d5f26d0e/7edefbc9-4633-4eea-a4a1-31e8dfe80cba/vlcsnap-2023-10-21-20h42m02s414.png",
-    "https://images.squarespace-cdn.com/content/v1/653146cbbf386b36d5f26d0e/3b5c1add-e912-4b7f-bf5d-369d24298354/vlcsnap-2023-10-21-20h40m25s786.png",
-    "https://images.squarespace-cdn.com/content/v1/653146cbbf386b36d5f26d0e/7c3e4c81-4550-4e2a-9a86-ca1e00c21023/vlcsnap-2023-10-21-20h41m11s599.png",
-    "https://images.squarespace-cdn.com/content/v1/653146cbbf386b36d5f26d0e/e12bb244-7fcb-4078-a3d2-cbf65bd5d748/vlcsnap-2023-10-21-20h40m30s957.png",
-    "https://images.squarespace-cdn.com/content/v1/653146cbbf386b36d5f26d0e/62390fac-721a-4b79-b278-eb3ebfbded2d/vlcsnap-2023-10-21-20h41m23s605.png",
-    "https://images.squarespace-cdn.com/content/v1/653146cbbf386b36d5f26d0e/fa1a79da-e021-4c61-93b6-6df97acb1df4/vlcsnap-2023-10-21-20h41m33s627.png",
+    "/assets/msafreen/image-01.png",
+    "/assets/msafreen/image-02.png",
+    "/assets/msafreen/image-03.png",
+    "/assets/msafreen/image-04.png",
+    "/assets/msafreen/image-05.png",
+    "/assets/msafreen/image-06.png",
+    "/assets/msafreen/image-07.png",
+    "/assets/msafreen/image-08.png",
   ],
   "i-was-naver": [
-    "https://images.squarespace-cdn.com/content/v1/653146cbbf386b36d5f26d0e/6e97d9b5-884d-434c-9fe1-a587b1fbe0cb/IMG_8607.jpeg",
-    "https://images.squarespace-cdn.com/content/v1/653146cbbf386b36d5f26d0e/8d6ae48b-d777-4f68-a1c9-3aaec85350db/IMG_8606.jpeg",
+    "/assets/i-was-naver/image-01.jpg",
+    "/assets/i-was-naver/image-02.jpg",
   ],
   "womena-beirut": [
     "https://images.squarespace-cdn.com/content/v1/653146cbbf386b36d5f26d0e/9dabc779-d718-410c-881d-59157a81ea79/vlcsnap-2023-10-21-12h58m56s318.png",
@@ -97,16 +99,24 @@ export const pageImages: Record<string, string[]> = {
     "https://images.squarespace-cdn.com/content/v1/653146cbbf386b36d5f26d0e/38b6ece6-a6c1-4cee-a484-edc8f3105205/vlcsnap-2023-10-21-22h29m54s849.png",
   ],
   "contact": [
-    "https://images.squarespace-cdn.com/content/v1/653146cbbf386b36d5f26d0e/c745a483-2fe0-4dc5-a669-63b1afd14265/DSC07980-Edit.jpg",
-    "https://images.squarespace-cdn.com/content/v1/653146cbbf386b36d5f26d0e/27d841b5-a58b-4d35-a91d-fa6c31cd70f4/DSC07980-Edit.jpg",
+    "/assets/contact/image-01.jpg",
+    "/assets/contact/image-02.jpg",
   ],
   "three-decades-and-a-climax": [
-    "https://images.squarespace-cdn.com/content/v1/653146cbbf386b36d5f26d0e/f0705011-174f-473e-bfc9-1828c9202ffa/Three+decades+and+a+climax_10+copy.jpg",
-    "https://images.squarespace-cdn.com/content/v1/653146cbbf386b36d5f26d0e/f964b0b0-e0cf-4aed-91e9-ff37504fa7d5/_DSC9276.JPG",
-    "https://images.squarespace-cdn.com/content/v1/653146cbbf386b36d5f26d0e/7eb2fd75-e065-44a4-8d8b-417272c20b1f/_DSC8810+copy.jpg",
-    "https://images.squarespace-cdn.com/content/v1/653146cbbf386b36d5f26d0e/daf131c6-663b-4bed-b818-b5dca1f8db4f/_DSC5427-Edit.jpg",
-    "https://images.squarespace-cdn.com/content/v1/653146cbbf386b36d5f26d0e/92e55176-0795-421d-b34d-0142935b02d7/_DSC9671-Edit-Exposure.jpg",
-    "https://images.squarespace-cdn.com/content/v1/653146cbbf386b36d5f26d0e/f08dbafe-18ab-421f-84ff-61073c94930c/_DSC1367.JPG",
+    "/assets/three-decades-and-a-climax/image-01.jpg",
+    "/assets/three-decades-and-a-climax/image-02.jpg",
+    "/assets/three-decades-and-a-climax/image-03.jpg",
+    "/assets/three-decades-and-a-climax/image-04.jpg",
+    "/assets/three-decades-and-a-climax/image-05.jpg",
+    "/assets/three-decades-and-a-climax/image-06.jpg",
+    "/assets/three-decades-and-a-climax/image-07.jpg",
+    "/assets/three-decades-and-a-climax/image-08.jpg",
+    "/assets/three-decades-and-a-climax/image-09.jpg",
+    "/assets/three-decades-and-a-climax/image-10.jpg",
+    "/assets/three-decades-and-a-climax/image-11.jpg",
+    "/assets/three-decades-and-a-climax/image-12.jpg",
+    "/assets/three-decades-and-a-climax/image-13.jpg",
+    "/assets/three-decades-and-a-climax/image-14.jpg",
   ],
   "a-la-recherche-de-beyrouth": [
     "https://images.squarespace-cdn.com/content/v1/653146cbbf386b36d5f26d0e/a3b06b92-aeff-49e6-9603-2bdfed0f47db/moonlanding+copy.JPG",
@@ -117,12 +127,26 @@ export const pageImages: Record<string, string[]> = {
     "https://images.squarespace-cdn.com/content/v1/653146cbbf386b36d5f26d0e/55ad510b-ebfb-45ac-866d-fa220aa4dc98/DSC03261+copy.JPG",
   ],
   "the-bleed-zine": [
-    "https://images.squarespace-cdn.com/content/v1/653146cbbf386b36d5f26d0e/cef45e39-e72b-4775-852e-a98e955aa6b4/DSC08989.JPG",
-    "https://images.squarespace-cdn.com/content/v1/653146cbbf386b36d5f26d0e/84193b6b-9230-46d3-955a-e0ac9a067d86/ran1_59-Exposure.jpg",
-    "https://images.squarespace-cdn.com/content/v1/653146cbbf386b36d5f26d0e/e05023d6-1261-47d3-b333-c4dcd6252e4e/DSC08568-Edit.JPG",
-    "https://images.squarespace-cdn.com/content/v1/653146cbbf386b36d5f26d0e/3e914d89-ef03-405d-a4c3-c15db5c42254/DSC08796-Edit.jpg",
-    "https://images.squarespace-cdn.com/content/v1/653146cbbf386b36d5f26d0e/cae3b8a0-d780-4f0a-a63a-184737a0ec07/DSC08526-Edit.JPG",
-    "https://images.squarespace-cdn.com/content/v1/653146cbbf386b36d5f26d0e/9ce97dd8-29bd-4c7e-a982-d0807ee8a0e5/ran1_54-Exposure.jpg",
+    "/assets/the-bleed-zine/image-01.jpg",
+    "/assets/the-bleed-zine/image-02.jpg",
+    "/assets/the-bleed-zine/image-03.jpg",
+    "/assets/the-bleed-zine/image-04.jpg",
+    "/assets/the-bleed-zine/image-05.jpg",
+    "/assets/the-bleed-zine/image-06.jpg",
+    "/assets/the-bleed-zine/image-07.jpg",
+    "/assets/the-bleed-zine/image-08.jpg",
+    "/assets/the-bleed-zine/image-09.jpg",
+    "/assets/the-bleed-zine/image-10.jpg",
+    "/assets/the-bleed-zine/image-11.jpg",
+    "/assets/the-bleed-zine/image-12.jpg",
+    "/assets/the-bleed-zine/image-13.jpg",
+    "/assets/the-bleed-zine/image-14.jpg",
+    "/assets/the-bleed-zine/image-15.jpg",
+    "/assets/the-bleed-zine/image-16.jpg",
+    "/assets/the-bleed-zine/image-17.jpg",
+    "/assets/the-bleed-zine/image-18.jpg",
+    "/assets/the-bleed-zine/image-19.jpg",
+    "/assets/the-bleed-zine/image-20.jpg",
   ],
   "fata17": [
     "https://images.squarespace-cdn.com/content/v1/653146cbbf386b36d5f26d0e/7d20d445-9a2c-47e1-bddc-702ed4b31c6d/DSC00945.jpg",
@@ -178,12 +202,14 @@ export const pageImages: Record<string, string[]> = {
   "test9": [
   ],
   "jal-el-bahr": [
-    "https://images.squarespace-cdn.com/content/v1/653146cbbf386b36d5f26d0e/02cd6f34-c075-423b-84e0-ac426229d9be/Jal+el+Bahr+%28english+subtitles%29.mp4.00_06_00_23.Still006.jpg",
-    "https://images.squarespace-cdn.com/content/v1/653146cbbf386b36d5f26d0e/1fbeaa7e-c616-4e72-b15a-3a4ba4e80cb0/Jal+el+Bahr+%28english+subtitles%29.mp4.00_04_21_13.Still004.jpg",
-    "https://images.squarespace-cdn.com/content/v1/653146cbbf386b36d5f26d0e/7e11f97d-7bef-4543-a4bb-52996520d48c/Jal+el+Bahr+%28english+subtitles%29.mp4.00_01_49_15.Still002.jpg",
-    "https://images.squarespace-cdn.com/content/v1/653146cbbf386b36d5f26d0e/0dfc9b89-2c2b-4f59-a5ff-6246d58dd511/Jal+el+Bahr+%28english+subtitles%29.mp4.00_07_06_12.Still008.jpg",
-    "https://images.squarespace-cdn.com/content/v1/653146cbbf386b36d5f26d0e/f9691162-8a12-43bc-a29a-b344948e5829/Jal+el+Bahr+%28english+subtitles%29.mp4.00_00_57_02.Still001.jpg",
-    "https://images.squarespace-cdn.com/content/v1/653146cbbf386b36d5f26d0e/9fc7c54d-9e0b-49fa-98ee-acd0078b7362/Jal+el+Bahr+%28english+subtitles%29.mp4.00_03_59_01.Still003.jpg",
+    "/assets/jal-el-bahr/image-01.jpg",
+    "/assets/jal-el-bahr/image-02.jpg",
+    "/assets/jal-el-bahr/image-03.jpg",
+    "/assets/jal-el-bahr/image-04.jpg",
+    "/assets/jal-el-bahr/image-05.jpg",
+    "/assets/jal-el-bahr/image-06.jpg",
+    "/assets/jal-el-bahr/image-07.jpg",
+    "/assets/jal-el-bahr/image-08.jpg",
   ],
   "womena": [
     "https://images.squarespace-cdn.com/content/v1/653146cbbf386b36d5f26d0e/a51785d0-031c-4d69-b3c9-6749feb94c87/vlcsnap-2025-04-09-14h10m26s649.png",
@@ -203,7 +229,7 @@ export const pageImages: Record<string, string[]> = {
     "https://images.squarespace-cdn.com/content/v1/653146cbbf386b36d5f26d0e/71bb2df2-5398-42dd-b7d2-4f0be8037e4a/Unchild-01.png",
   ],
   "home": [
-    "https://images.squarespace-cdn.com/content/v1/653146cbbf386b36d5f26d0e/47e77177-2b4f-4abe-806c-ac1901a7a49c/Untitled+17.jpg",
+    "/assets/home/image-01.jpg",
   ],
   "store": [
   ],

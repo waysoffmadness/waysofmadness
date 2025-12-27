@@ -3,7 +3,7 @@ import Image from "next/image";
 import { notFound } from "next/navigation";
 import { projectPages } from "@/lib/content";
 import { pageImages } from "@/lib/page-images";
-import { pageCopy } from "@/lib/page-copy";
+import { getPageCopy } from "@/lib/page-copy";
 import { pageVideos } from "@/lib/page-videos";
 
 type Params = { slug: string };
@@ -22,7 +22,7 @@ export async function generateMetadata({
   const entry = projectPages.find((page) => page.slug === slug);
   if (!entry) return {};
   const images = pageImages[slug] ?? [];
-  const copy = pageCopy[slug];
+  const copy = getPageCopy(slug);
   const description =
     (copy && copy.slice(0, 160)) || "Photography project by Nader Bahsoun";
   const firstImage = images[0];
@@ -54,7 +54,7 @@ export default async function ProjectPage({ params }: { params: Promise<Params> 
   const entry = projectPages.find((page) => page.slug === slug);
   if (!entry) return notFound();
   const images = pageImages[slug] ?? [];
-  const copy = pageCopy[slug];
+  const copy = getPageCopy(slug);
   const videos = pageVideos[slug] ?? [];
 
   return (

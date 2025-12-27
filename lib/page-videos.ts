@@ -30,7 +30,11 @@ export const pageVideos: Record<string, VideoEmbed[]> = {
     },
   ],
   "snakes-and-ladders": [
-    // Add Snakes and Ladders video here when available
+    {
+      type: "self",
+      id: "/videos/snakes-and-ladders.mp4",
+      title: "Snakes & Ladders",
+    },
   ],
   "unhearable-voices": [
     // Add Unhearable Voices video here when available

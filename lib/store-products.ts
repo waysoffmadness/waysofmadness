@@ -16,7 +16,7 @@ export const storeProducts: StoreProduct[] = [
     name: "Strange Fruit",
     price: 120,
     maxPrice: 320,
-    imageUrl: "https://static1.squarespace.com/static/653146cbbf386b36d5f26d0e/6873aea7da1a9e439cd8ef48/6873aed80ffc54684efc4876/1761138953643/Prints+Thumbnails-08.JPG?format=1500w",
+    imageUrl: "/assets/xprints/Prints+Thumbnails-08.jpg",
     sizes: [
       { size: "30 × 45 cm", price: 120 },
       { size: "40 × 60 cm", price: 180 },
@@ -31,7 +31,7 @@ export const storeProducts: StoreProduct[] = [
     name: "The flood never stops #02",
     price: 120,
     maxPrice: 320,
-    imageUrl: "https://static1.squarespace.com/static/653146cbbf386b36d5f26d0e/6873aea7da1a9e439cd8ef48/6882314e4f07e86b36b0f5b0/1761138968961/Prints+Thumbnails-06.JPG?format=1500w",
+    imageUrl: "/assets/xprints/Prints+Thumbnails-06.jpg",
     sizes: [
       { size: "30 × 45 cm", price: 120 },
       { size: "40 × 60 cm", price: 180 },
@@ -46,7 +46,7 @@ export const storeProducts: StoreProduct[] = [
     name: "Petit Amour",
     price: 120,
     maxPrice: 320,
-    imageUrl: "https://static1.squarespace.com/static/653146cbbf386b36d5f26d0e/6873aea7da1a9e439cd8ef48/688231a78769133d087ae94a/1753362959285/Prints+Thumbnails-12.JPG?format=1500w",
+    imageUrl: "/assets/xprints/Prints+Thumbnails-12.jpg",
     sizes: [
       { size: "30 × 45 cm", price: 120 },
       { size: "40 × 60 cm", price: 180 },
@@ -61,7 +61,7 @@ export const storeProducts: StoreProduct[] = [
     name: "Point and Kill",
     price: 120,
     maxPrice: 320,
-    imageUrl: "https://static1.squarespace.com/static/653146cbbf386b36d5f26d0e/6873aea7da1a9e439cd8ef48/6882320f02773120955b59da/1761138977911/Prints+Thumbnails-14.JPG?format=1500w",
+    imageUrl: "/assets/xprints/Prints+Thumbnails-14.jpg",
     sizes: [
       { size: "30 × 45 cm", price: 120 },
       { size: "40 × 60 cm", price: 180 },
@@ -76,7 +76,7 @@ export const storeProducts: StoreProduct[] = [
     name: "The flood never stops",
     price: 120,
     maxPrice: 320,
-    imageUrl: "https://static1.squarespace.com/static/653146cbbf386b36d5f26d0e/6873aea7da1a9e439cd8ef48/68823295aa181d32f225dd80/1753363169322/Prints+Thumbnails-02.JPG?format=1500w",
+    imageUrl: "/assets/xprints/Prints+Thumbnails-02.jpg",
     sizes: [
       { size: "30 × 45 cm", price: 120 },
       { size: "40 × 60 cm", price: 180 },
@@ -91,7 +91,7 @@ export const storeProducts: StoreProduct[] = [
     name: "Will you keep a secret?",
     price: 120,
     maxPrice: 320,
-    imageUrl: "https://static1.squarespace.com/static/653146cbbf386b36d5f26d0e/6873aea7da1a9e439cd8ef48/688232e102773120955b851c/1761138943330/Prints+Thumbnails-04.JPG?format=1500w",
+    imageUrl: "/assets/xprints/Prints+Thumbnails-04.jpg",
     sizes: [
       { size: "30 × 45 cm", price: 120 },
       { size: "40 × 60 cm", price: 180 },
@@ -106,7 +106,7 @@ export const storeProducts: StoreProduct[] = [
     name: "Strange Fruit #02",
     price: 120,
     maxPrice: 320,
-    imageUrl: "https://static1.squarespace.com/static/653146cbbf386b36d5f26d0e/6873aea7da1a9e439cd8ef48/6882332ad1b5ed777003877a/1761138935421/Prints+Thumbnails-13.JPG?format=1500w",
+    imageUrl: "/assets/xprints/Prints+Thumbnails-13.jpg",
     sizes: [
       { size: "30 × 45 cm", price: 120 },
       { size: "40 × 60 cm", price: 180 },
@@ -121,7 +121,7 @@ export const storeProducts: StoreProduct[] = [
     name: "Dreamers",
     price: 120,
     maxPrice: 320,
-    imageUrl: "https://static1.squarespace.com/static/653146cbbf386b36d5f26d0e/6873aea7da1a9e439cd8ef48/688233e0f6133218e49596a6/1761138985081/Prints+Thumbnails-20.JPG?format=1500w",
+    imageUrl: "/assets/xprints/Prints+Thumbnails-20.jpg",
     sizes: [
       { size: "30 × 45 cm", price: 120 },
       { size: "40 × 60 cm", price: 180 },
@@ -136,7 +136,7 @@ export const storeProducts: StoreProduct[] = [
     name: "Once, Twice, Wake up",
     price: 120,
     maxPrice: 320,
-    imageUrl: "https://static1.squarespace.com/static/653146cbbf386b36d5f26d0e/6873aea7da1a9e439cd8ef48/6882340b9f820736d5033c9d/1761138998234/Prints+Thumbnails-10.JPG?format=1500w",
+    imageUrl: "/assets/xprints/Prints+Thumbnails-10.jpg",
     sizes: [
       { size: "30 × 45 cm", price: 120 },
       { size: "40 × 60 cm", price: 180 },
@@ -151,7 +151,7 @@ export const storeProducts: StoreProduct[] = [
     name: "Of heaven and mothers",
     price: 120,
     maxPrice: 320,
-    imageUrl: "https://static1.squarespace.com/static/653146cbbf386b36d5f26d0e/6873aea7da1a9e439cd8ef48/6882342c4eb46a65beae1f3a/1761138925304/Prints+Thumbnails-03.JPG?format=1500w",
+    imageUrl: "/assets/xprints/Prints+Thumbnails-03.jpg",
     sizes: [
       { size: "30 × 45 cm", price: 120 },
       { size: "40 × 60 cm", price: 180 },
@@ -166,7 +166,7 @@ export const storeProducts: StoreProduct[] = [
     name: "Russian Roulette",
     price: 120,
     maxPrice: 320,
-    imageUrl: "https://static1.squarespace.com/static/653146cbbf386b36d5f26d0e/6873aea7da1a9e439cd8ef48/68823458aa181d32f225ea78/1761138919315/Prints+Thumbnails-09.JPG?format=1500w",
+    imageUrl: "/assets/xprints/Prints+Thumbnails-18.jpg",
     sizes: [
       { size: "30 × 45 cm", price: 120 },
       { size: "40 × 60 cm", price: 180 },
@@ -181,7 +181,7 @@ export const storeProducts: StoreProduct[] = [
     name: "TYRIANAS",
     price: 120,
     maxPrice: 320,
-    imageUrl: "https://static1.squarespace.com/static/653146cbbf386b36d5f26d0e/6873aea7da1a9e439cd8ef48/68823487f6133218e495a58d/1761138913206/Prints+Thumbnails-07.JPG?format=1500w",
+    imageUrl: "/assets/xprints/Prints+Thumbnails-11.jpg",
     sizes: [
       { size: "30 × 45 cm", price: 120 },
       { size: "40 × 60 cm", price: 180 },
@@ -196,7 +196,7 @@ export const storeProducts: StoreProduct[] = [
     name: "Point and Kill #02",
     price: 120,
     maxPrice: 320,
-    imageUrl: "https://static1.squarespace.com/static/653146cbbf386b36d5f26d0e/6873aea7da1a9e439cd8ef48/688234ab9f820736d5033fbd/1761138906301/Prints+Thumbnails-15.JPG?format=1500w",
+    imageUrl: "/assets/xprints/Prints+Thumbnails-21.jpg",
     sizes: [
       { size: "30 × 45 cm", price: 120 },
       { size: "40 × 60 cm", price: 180 },
@@ -211,7 +211,7 @@ export const storeProducts: StoreProduct[] = [
     name: "Prayer of the heart",
     price: 120,
     maxPrice: 320,
-    imageUrl: "https://static1.squarespace.com/static/653146cbbf386b36d5f26d0e/6873aea7da1a9e439cd8ef48/688234d302773120955bb1cc/1761138899284/Prints+Thumbnails-16.JPG?format=1500w",
+    imageUrl: "/assets/xprints/Prints+Thumbnails-07.jpg",
     sizes: [
       { size: "30 × 45 cm", price: 120 },
       { size: "40 × 60 cm", price: 180 },
@@ -226,7 +226,7 @@ export const storeProducts: StoreProduct[] = [
     name: "THROW",
     price: 120,
     maxPrice: 320,
-    imageUrl: "https://static1.squarespace.com/static/653146cbbf386b36d5f26d0e/6873aea7da1a9e439cd8ef48/688234fd4eb46a65beae2d04/1761138892399/Prints+Thumbnails-17.JPG?format=1500w",
+    imageUrl: "/assets/xprints/Prints+Thumbnails-22.jpg",
     sizes: [
       { size: "30 × 45 cm", price: 120 },
       { size: "40 × 60 cm", price: 180 },
@@ -241,7 +241,7 @@ export const storeProducts: StoreProduct[] = [
     name: "Vile, Vile, Nature",
     price: 120,
     maxPrice: 320,
-    imageUrl: "https://static1.squarespace.com/static/653146cbbf386b36d5f26d0e/6873aea7da1a9e439cd8ef48/6882351ef6133218e495a975/1761138885474/Prints+Thumbnails-18.JPG?format=1500w",
+    imageUrl: "/assets/xprints/Prints+Thumbnails-05.jpg",
     sizes: [
       { size: "30 × 45 cm", price: 120 },
       { size: "40 × 60 cm", price: 180 },
@@ -256,7 +256,7 @@ export const storeProducts: StoreProduct[] = [
     name: "Untitled #17",
     price: 120,
     maxPrice: 320,
-    imageUrl: "https://static1.squarespace.com/static/653146cbbf386b36d5f26d0e/6873aea7da1a9e439cd8ef48/68823544aa181d32f22601f9/1761138878412/Prints+Thumbnails-19.JPG?format=1500w",
+    imageUrl: "/assets/xprints/Prints+Thumbnails-15.jpg",
     sizes: [
       { size: "30 × 45 cm", price: 120 },
       { size: "40 × 60 cm", price: 180 },
@@ -271,7 +271,7 @@ export const storeProducts: StoreProduct[] = [
     name: "Lost Wars",
     price: 120,
     maxPrice: 320,
-    imageUrl: "https://static1.squarespace.com/static/653146cbbf386b36d5f26d0e/6873aea7da1a9e439cd8ef48/68823571d1b5ed7770039ce3/1761138871432/Prints+Thumbnails-21.JPG?format=1500w",
+    imageUrl: "/assets/xprints/Prints+Thumbnails-01.jpg",
     sizes: [
       { size: "30 × 45 cm", price: 120 },
       { size: "40 × 60 cm", price: 180 },
@@ -286,7 +286,7 @@ export const storeProducts: StoreProduct[] = [
     name: "Untitled #09",
     price: 120,
     maxPrice: 320,
-    imageUrl: "https://static1.squarespace.com/static/653146cbbf386b36d5f26d0e/6873aea7da1a9e439cd8ef48/688235974f07e86b36b11ea9/1761138864450/Prints+Thumbnails-22.JPG?format=1500w",
+    imageUrl: "/assets/xprints/Prints+Thumbnails-19.jpg",
     sizes: [
       { size: "30 × 45 cm", price: 120 },
       { size: "40 × 60 cm", price: 180 },
@@ -301,7 +301,7 @@ export const storeProducts: StoreProduct[] = [
     name: "Three states of love",
     price: 120,
     maxPrice: 320,
-    imageUrl: "https://static1.squarespace.com/static/653146cbbf386b36d5f26d0e/6873aea7da1a9e439cd8ef48/688235c34eb46a65beae3b1f/1761138857504/Prints+Thumbnails-23.JPG?format=1500w",
+    imageUrl: "/assets/xprints/Prints+Thumbnails-17.jpg",
     sizes: [
       { size: "30 × 45 cm", price: 120 },
       { size: "40 × 60 cm", price: 180 },
@@ -316,7 +316,7 @@ export const storeProducts: StoreProduct[] = [
     name: "Will you keep a secret? #02",
     price: 120,
     maxPrice: 320,
-    imageUrl: "https://static1.squarespace.com/static/653146cbbf386b36d5f26d0e/6873aea7da1a9e439cd8ef48/688235e9f6133218e495b314/1761138850563/Prints+Thumbnails-05.JPG?format=1500w",
+    imageUrl: "/assets/xprints/Prints+Thumbnails-16.jpg",
     sizes: [
       { size: "30 × 45 cm", price: 120 },
       { size: "40 × 60 cm", price: 180 },
@@ -331,7 +331,7 @@ export const storeProducts: StoreProduct[] = [
     name: "Southern Dreams",
     price: 120,
     maxPrice: 320,
-    imageUrl: "https://static1.squarespace.com/static/653146cbbf386b36d5f26d0e/6873aea7da1a9e439cd8ef48/688236129f820736d503562c/1761138843597/Prints+Thumbnails-24.JPG?format=1500w",
+    imageUrl: "/assets/xprints/Prints+Thumbnails-23.jpg",
     sizes: [
       { size: "30 × 45 cm", price: 120 },
       { size: "40 × 60 cm", price: 180 },
@@ -346,7 +346,7 @@ export const storeProducts: StoreProduct[] = [
     name: "POV Adulte #02",
     price: 120,
     maxPrice: 320,
-    imageUrl: "https://static1.squarespace.com/static/653146cbbf386b36d5f26d0e/6873aea7da1a9e439cd8ef48/68823640aa181d32f2260d36/1761138836704/Prints+Thumbnails-25.JPG?format=1500w",
+    imageUrl: "/assets/xprints/Prints+Thumbnails-24.jpg",
     sizes: [
       { size: "30 × 45 cm", price: 120 },
       { size: "40 × 60 cm", price: 180 },
@@ -361,7 +361,7 @@ export const storeProducts: StoreProduct[] = [
     name: "POV Adulte",
     price: 120,
     maxPrice: 320,
-    imageUrl: "https://static1.squarespace.com/static/653146cbbf386b36d5f26d0e/6873aea7da1a9e439cd8ef48/6882366cd1b5ed777003aeb3/1761138829799/Prints+Thumbnails-11.JPG?format=1500w",
+    imageUrl: "/assets/xprints/Prints+Thumbnails-09.jpg",
     sizes: [
       { size: "30 × 45 cm", price: 120 },
       { size: "40 × 60 cm", price: 180 },

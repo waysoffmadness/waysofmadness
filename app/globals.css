@@ -2,3 +2,10 @@
 @import "../styles/squarespace/commerce.css";
 @import "../styles/squarespace/site.css";
 @import "../styles/squarespace/static.css";
+
+.container {
+  width: 100%;
+  max-width: none;
+  margin: 0;
+  padding: 0;
+}

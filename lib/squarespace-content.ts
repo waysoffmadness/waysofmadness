@@ -14,6 +14,14 @@ const STATIC_PAGE_NAMES = new Set([
   "icons",
 ]);
 
+function decodeHtmlEntities(str: string): string {
+  return str
+    .replace(/&lt;/g, "<")
+    .replace(/&gt;/g, ">")
+    .replace(/&quot;/g, '"')
+    .replace(/&amp;/g, "&");
+}
+
 function processSquarespaceHtml(html: string): string {
   return html
     // Remove Squarespace's custom loader attribute that blocks native loading
@@ -21,7 +29,15 @@ function processSquarespaceHtml(html: string): string {
     // Remove data-load="false" that prevents loading
     .replace(/\s*data-load="false"/gi, "")
     // Remove sizes="0" which prevents images from loading
-    .replace(/\s*sizes="0"/gi, "");
+    .replace(/\s*sizes="0"/gi, "")
+    // Inject video iframes from data-html attributes
+    .replace(
+      /<div class="sqs-video-wrapper"([^>]*?)data-html="([^"]+)"([^>]*)><\/div>/gi,
+      (match, before, dataHtml, after) => {
+        const iframe = decodeHtmlEntities(dataHtml);
+        return `<div class="sqs-video-wrapper"${before}${after}>${iframe}</div>`;
+      }
+    );
 }
 
 export async function loadSquarespaceHtml(name: string): Promise<string | null> {

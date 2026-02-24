@@ -7,26 +7,40 @@ import re
 import sys
 import urllib.request
 
-BASE_URL = "https://www.naderbahsounstudios.com"
+BASE_URL = "https://www.naderbahsoun.com"
 
 PAGES = {
     "home": "/",
     "about": "/about",
     "projects": "/projects",
+    "work": "/work",
     "co-creations": "/co-creations",
     "xprints": "/xprints",
     "contact": "/contact",
     "archive-x": "/archive-x",
-    "southern-birds-project": "/southern-birds-project",
+    "a-la-recherche-de-beyrouth": "/a-la-recherche-de-beyrouth",
+    "alternative-beirut": "/alternative-beirut",
+    "artevolution": "/artevolution",
+    "bokja": "/bokja",
+    "daftar-beirut": "/daftar-beirut",
+    "fata17": "/fata17",
+    "fuel-project": "/fuel-project",
     "i-was-naver": "/i-was-naver",
-    "the-bleed-zine": "/the-bleed-zine",
-    "three-decades-and-a-climax": "/three-decades-and-a-climax",
+    "jal-el-bahr": "/jal-el-bahr",
+    "msafreen": "/msafreen",
+    "noctiluca": "/noctiluca",
     "shabah-el-rih": "/shabah-el-rih",
     "snakes-and-ladders": "/snakes-and-ladders",
-    "msafreen": "/msafreen",
-    "jal-el-bahr": "/jal-el-bahr",
+    "southern-birds-project": "/southern-birds-project",
+    "Stories": "/Stories",
+    "the-bleed-zine": "/the-bleed-zine",
+    "the-valley-of-sleep": "/the-valley-of-sleep",
+    "three-decades-and-a-climax": "/three-decades-and-a-climax",
     "unhearable-voices": "/unhearable-voices",
+    "w-adrian-pepe": "/w-adrian-pepe",
     "womena-beirut": "/womena-beirut",
+    "womena-sound-of-saudi-3": "/womena-sound-of-saudi-3",
+    "zoukak-theatre": "/zoukak-theatre",
 }
 
 ARTICLE_RE = re.compile(r"(<article class=\"sections\"[^>]*>.*?</article>)", re.S)

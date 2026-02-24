@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Epilogue, Poppins } from "next/font/google";
 import { SquarespaceHeader } from "@/components/squarespace-header";
 import { HeaderOffset } from "@/components/header-offset";
+import { SquarespaceAssetsLoader } from "@/components/squarespace-assets-loader";
 import { pageImages } from "@/lib/page-images";
 import { squarespaceBodyClass } from "@/lib/squarespace-body";
 import "./globals.css";
@@ -54,6 +55,7 @@ export default function RootLayout({
     <html lang="en" className={`${poppins.variable} ${epilogue.variable}`}>
       <body className={squarespaceBodyClass}>
         <div id="siteWrapper" className="clearfix site-wrapper">
+          <SquarespaceAssetsLoader />
           <SquarespaceHeader />
           <HeaderOffset />
           {children}

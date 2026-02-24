@@ -30,6 +30,23 @@ function processSquarespaceHtml(html: string): string {
     .replace(/\s*data-load="false"/gi, "")
     // Remove sizes="0" which prevents images from loading
     .replace(/\s*sizes="0"/gi, "")
+    // Ensure lazy-loaded assets display without Squarespace JS
+    .replace(
+      /<img([^>]*?)data-src="([^"]+)"([^>]*?)>/gi,
+      (match, before, dataSrc, after) => {
+        const alreadyHasSrc = /src\s*=/.test(match);
+        if (alreadyHasSrc) return match;
+        return `<img${before}src="${dataSrc}"${after}>`;
+      }
+    )
+    .replace(
+      /<source([^>]*?)data-src="([^"]+)"([^>]*?)>/gi,
+      (match, before, dataSrc, after) => {
+        const alreadyHasSrc = /src\s*=/.test(match);
+        if (alreadyHasSrc) return match;
+        return `<source${before}src="${dataSrc}"${after}>`;
+      }
+    )
     // Inject video iframes from data-html attributes
     .replace(
       /<div class="sqs-video-wrapper"([^>]*?)data-html="([^"]+)"([^>]*)><\/div>/gi,

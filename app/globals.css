@@ -28,3 +28,26 @@ img.grid-item-image {
 .product-list-item {
   opacity: 1 !important;
 }
+
+/* Page-specific tweaks */
+/* Jal el Bahr page text was unreadable on dark imagery */
+[data-page-sections="6818b6fa4f6ebd350919ebbd"] {
+  color: #fff;
+}
+[data-page-sections="6818b6fa4f6ebd350919ebbd"] h1,
+[data-page-sections="6818b6fa4f6ebd350919ebbd"] h2,
+[data-page-sections="6818b6fa4f6ebd350919ebbd"] h3,
+[data-page-sections="6818b6fa4f6ebd350919ebbd"] h4,
+[data-page-sections="6818b6fa4f6ebd350919ebbd"] h5,
+[data-page-sections="6818b6fa4f6ebd350919ebbd"] h6,
+[data-page-sections="6818b6fa4f6ebd350919ebbd"] p,
+[data-page-sections="6818b6fa4f6ebd350919ebbd"] li,
+[data-page-sections="6818b6fa4f6ebd350919ebbd"] a,
+[data-page-sections="6818b6fa4f6ebd350919ebbd"] figcaption,
+[data-page-sections="6818b6fa4f6ebd350919ebbd"] .sqs-block-content {
+  color: #fff !important;
+}
+[data-page-sections="6818b6fa4f6ebd350919ebbd"] a {
+  text-decoration: underline;
+  text-decoration-color: rgba(255, 255, 255, 0.6);
+}

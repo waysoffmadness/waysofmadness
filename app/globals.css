@@ -2,6 +2,7 @@
 @import "../styles/squarespace/commerce.css";
 @import "../styles/squarespace/site.css";
 @import "../styles/squarespace/static.css";
+@import "../styles/squarespace/imageFluid.css";
 
 .container {
   width: 100%;
@@ -27,4 +28,3 @@ img.grid-item-image {
 .product-list-item {
   opacity: 1 !important;
 }
-
